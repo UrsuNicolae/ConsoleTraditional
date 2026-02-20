@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\NURSU\\Desktop\\FirstConsole\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AB9E9E96-6930-43DD-BB48-AC92EC40FE3A}|ConsoleAppTraditional\\ConsoleAppTraditional.csproj|c:\\users\\nursu\\desktop\\firstconsole\\consoleapptraditional\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB9E9E96-6930-43DD-BB48-AC92EC40FE3A}|ConsoleAppTraditional\\ConsoleAppTraditional.csproj|solutionrelative:consoleapptraditional\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB9E9E96-6930-43DD-BB48-AC92EC40FE3A}|ConsoleAppTraditional\\ConsoleAppTraditional.csproj|c:\\users\\nursu\\desktop\\firstconsole\\consoleapptraditional\\class\\employee\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB9E9E96-6930-43DD-BB48-AC92EC40FE3A}|ConsoleAppTraditional\\ConsoleAppTraditional.csproj|solutionrelative:consoleapptraditional\\class\\employee\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB9E9E96-6930-43DD-BB48-AC92EC40FE3A}|ConsoleAppTraditional\\ConsoleAppTraditional.csproj|c:\\users\\nursu\\desktop\\firstconsole\\consoleapptraditional\\log.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{AB9E9E96-6930-43DD-BB48-AC92EC40FE3A}|ConsoleAppTraditional\\ConsoleAppTraditional.csproj|solutionrelative:consoleapptraditional\\log.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB9E9E96-6930-43DD-BB48-AC92EC40FE3A}|ConsoleAppTraditional\\ConsoleAppTraditional.csproj|c:\\users\\nursu\\desktop\\firstconsole\\consoleapptraditional\\logimplementations\\filelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB9E9E96-6930-43DD-BB48-AC92EC40FE3A}|ConsoleAppTraditional\\ConsoleAppTraditional.csproj|solutionrelative:consoleapptraditional\\logimplementations\\filelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB9E9E96-6930-43DD-BB48-AC92EC40FE3A}|ConsoleAppTraditional\\ConsoleAppTraditional.csproj|c:\\users\\nursu\\desktop\\firstconsole\\consoleapptraditional\\logimplementations\\paymentmanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB9E9E96-6930-43DD-BB48-AC92EC40FE3A}|ConsoleAppTraditional\\ConsoleAppTraditional.csproj|solutionrelative:consoleapptraditional\\logimplementations\\paymentmanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB9E9E96-6930-43DD-BB48-AC92EC40FE3A}|ConsoleAppTraditional\\ConsoleAppTraditional.csproj|c:\\users\\nursu\\desktop\\firstconsole\\consoleapptraditional\\class\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB9E9E96-6930-43DD-BB48-AC92EC40FE3A}|ConsoleAppTraditional\\ConsoleAppTraditional.csproj|solutionrelative:consoleapptraditional\\class\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB9E9E96-6930-43DD-BB48-AC92EC40FE3A}|ConsoleAppTraditional\\ConsoleAppTraditional.csproj|c:\\users\\nursu\\desktop\\firstconsole\\consoleapptraditional\\logimplementations\\consolelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB9E9E96-6930-43DD-BB48-AC92EC40FE3A}|ConsoleAppTraditional\\ConsoleAppTraditional.csproj|solutionrelative:consoleapptraditional\\logimplementations\\consolelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB9E9E96-6930-43DD-BB48-AC92EC40FE3A}|ConsoleAppTraditional\\ConsoleAppTraditional.csproj|c:\\users\\nursu\\desktop\\firstconsole\\consoleapptraditional\\logimplementations\\ilogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB9E9E96-6930-43DD-BB48-AC92EC40FE3A}|ConsoleAppTraditional\\ConsoleAppTraditional.csproj|solutionrelative:consoleapptraditional\\logimplementations\\ilogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB9E9E96-6930-43DD-BB48-AC92EC40FE3A}|ConsoleAppTraditional\\ConsoleAppTraditional.csproj|c:\\users\\nursu\\desktop\\firstconsole\\consoleapptraditional\\class\\paymentprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB9E9E96-6930-43DD-BB48-AC92EC40FE3A}|ConsoleAppTraditional\\ConsoleAppTraditional.csproj|solutionrelative:consoleapptraditional\\class\\paymentprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\NURSU\\Desktop\\FirstConsole\\ConsoleAppTraditional\\Class\\Employee\\Employee.cs",
+              "RelativeDocumentMoniker": "ConsoleAppTraditional\\Class\\Employee\\Employee.cs",
+              "ToolTip": "C:\\Users\\NURSU\\Desktop\\FirstConsole\\ConsoleAppTraditional\\Class\\Employee\\Employee.cs",
+              "RelativeToolTip": "ConsoleAppTraditional\\Class\\Employee\\Employee.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAHYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T18:01:14.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "log.txt",
+              "DocumentMoniker": "C:\\Users\\NURSU\\Desktop\\FirstConsole\\ConsoleAppTraditional\\log.txt",
+              "RelativeDocumentMoniker": "ConsoleAppTraditional\\log.txt",
+              "ToolTip": "C:\\Users\\NURSU\\Desktop\\FirstConsole\\ConsoleAppTraditional\\log.txt",
+              "RelativeToolTip": "ConsoleAppTraditional\\log.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-02-20T17:58:27.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PaymentManger.cs",
+              "DocumentMoniker": "C:\\Users\\NURSU\\Desktop\\FirstConsole\\ConsoleAppTraditional\\LogImplementations\\PaymentManger.cs",
+              "RelativeDocumentMoniker": "ConsoleAppTraditional\\LogImplementations\\PaymentManger.cs",
+              "ToolTip": "C:\\Users\\NURSU\\Desktop\\FirstConsole\\ConsoleAppTraditional\\LogImplementations\\PaymentManger.cs",
+              "RelativeToolTip": "ConsoleAppTraditional\\LogImplementations\\PaymentManger.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwBMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T17:42:00.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FileLogger.cs",
+              "DocumentMoniker": "C:\\Users\\NURSU\\Desktop\\FirstConsole\\ConsoleAppTraditional\\LogImplementations\\FileLogger.cs",
+              "RelativeDocumentMoniker": "ConsoleAppTraditional\\LogImplementations\\FileLogger.cs",
+              "ToolTip": "C:\\Users\\NURSU\\Desktop\\FirstConsole\\ConsoleAppTraditional\\LogImplementations\\FileLogger.cs",
+              "RelativeToolTip": "ConsoleAppTraditional\\LogImplementations\\FileLogger.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswBMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T17:38:49.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ConsoleLogger.cs",
+              "DocumentMoniker": "C:\\Users\\NURSU\\Desktop\\FirstConsole\\ConsoleAppTraditional\\LogImplementations\\ConsoleLogger.cs",
+              "RelativeDocumentMoniker": "ConsoleAppTraditional\\LogImplementations\\ConsoleLogger.cs",
+              "ToolTip": "C:\\Users\\NURSU\\Desktop\\FirstConsole\\ConsoleAppTraditional\\LogImplementations\\ConsoleLogger.cs",
+              "RelativeToolTip": "ConsoleAppTraditional\\LogImplementations\\ConsoleLogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T17:37:06.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ILogger.cs",
+              "DocumentMoniker": "C:\\Users\\NURSU\\Desktop\\FirstConsole\\ConsoleAppTraditional\\LogImplementations\\ILogger.cs",
+              "RelativeDocumentMoniker": "ConsoleAppTraditional\\LogImplementations\\ILogger.cs",
+              "ToolTip": "C:\\Users\\NURSU\\Desktop\\FirstConsole\\ConsoleAppTraditional\\LogImplementations\\ILogger.cs",
+              "RelativeToolTip": "ConsoleAppTraditional\\LogImplementations\\ILogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T17:34:48.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PaymentProcessor.cs",
+              "DocumentMoniker": "C:\\Users\\NURSU\\Desktop\\FirstConsole\\ConsoleAppTraditional\\Class\\PaymentProcessor.cs",
+              "RelativeDocumentMoniker": "ConsoleAppTraditional\\Class\\PaymentProcessor.cs",
+              "ToolTip": "C:\\Users\\NURSU\\Desktop\\FirstConsole\\ConsoleAppTraditional\\Class\\PaymentProcessor.cs",
+              "RelativeToolTip": "ConsoleAppTraditional\\Class\\PaymentProcessor.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwFEAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T17:14:11.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\NURSU\\Desktop\\FirstConsole\\ConsoleAppTraditional\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleAppTraditional\\Program.cs",
+              "ToolTip": "C:\\Users\\NURSU\\Desktop\\FirstConsole\\ConsoleAppTraditional\\Program.cs*",
+              "RelativeToolTip": "ConsoleAppTraditional\\Program.cs*",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwA0AAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T17:41:24.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Helper.cs",
+              "DocumentMoniker": "C:\\Users\\NURSU\\Desktop\\FirstConsole\\ConsoleAppTraditional\\Class\\Helper.cs",
+              "RelativeDocumentMoniker": "ConsoleAppTraditional\\Class\\Helper.cs",
+              "ToolTip": "C:\\Users\\NURSU\\Desktop\\FirstConsole\\ConsoleAppTraditional\\Class\\Helper.cs",
+              "RelativeToolTip": "ConsoleAppTraditional\\Class\\Helper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T17:38:25.481Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

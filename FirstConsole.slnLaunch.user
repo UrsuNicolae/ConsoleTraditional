@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "FirstConsole\\FirstConsole.csproj",
+        "Action": "Start",
+        "DebugTarget": "FirstConsole"
+      },
+      {
+        "Path": "ConsoleApp2\\ConsoleApp2.csproj",
+        "Action": "Start",
+        "DebugTarget": "ConsoleApp2"
+      }
+    ]
+  }
+]

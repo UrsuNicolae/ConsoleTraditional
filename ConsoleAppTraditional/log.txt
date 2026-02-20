@@ -1,0 +1,6 @@
+20.02.2026 19:58:18:INFO: Processed payment of 100 for card 123412341234123420.02.2026 19:58:20:ERR: Invalid credit card number: 12320.02.2026 19:58:24:INFO: Transaction: 1234123412 refunded amount: 10020.02.2026 19:58:24:WARNING: Attempted to process refund for invalid transactionId: 12320.02.2026 19:58:24:INFO: Transaction: 1234123412 refunded amount: 10020.02.2026 19:58:24:ERR: Transaction invalid, invalid id: 12320.02.2026 19:58:47:INFO: Processed payment of 100 for card 1234123412341234
+20.02.2026 19:58:47:ERR: Invalid credit card number: 123
+20.02.2026 19:58:47:INFO: Transaction: 1234123412 refunded amount: 100
+20.02.2026 19:58:47:WARNING: Attempted to process refund for invalid transactionId: 123
+20.02.2026 19:58:47:INFO: Transaction: 1234123412 refunded amount: 100
+20.02.2026 19:58:47:ERR: Transaction invalid, invalid id: 123
