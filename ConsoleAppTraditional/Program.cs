@@ -1,7 +1,4 @@
 ﻿using ConsoleAppTraditional.Class;
-using ConsoleAppTraditional.Class.Employee;
-using ConsoleAppTraditional.LogImplementations;
-using System.Numerics;
 
 namespace ConsoleAppTraditional
 {
@@ -11,12 +8,23 @@ namespace ConsoleAppTraditional
 
         static async Task Main(string[] args)
         {
-            FullTimeEmployee fullTimeEmployee = new FullTimeEmployee("Jon", 1, 10000);
-            ParTimeEmployee parTime = new ParTimeEmployee("Partime Jon", 1, 5000);
-            EmployeeManager manager = new EmployeeManager();
-            manager.AddEmployee(parTime);
-            manager.AddEmployee(fullTimeEmployee);
-            manager.DisplayAll();
+            var artists = new List<Artist>
+            {
+                new SoloMusician("Jhon Doe", "Pop", "Guitar"),
+                new Band("The Band", "Rock", 4),
+                new DJ("DJMAx", "Electro", "House")
+            };
+
+            var events = new List<Event>
+            {
+                new MainConcert("Main Stage", DateTime.Parse("2026-08-10"), artists[0]),
+                new AcousticSession("Acoustic Room", DateTime.Parse("2026-10-10"), artists[1]),
+                new AfterParty("CLUB XYZ", DateTime.Parse("2026-12-10"), artists[2])
+            };
+            foreach(var concretEvent in events)
+            {
+                concretEvent.DisplayDetails();
+            }
         }
     }
 }
