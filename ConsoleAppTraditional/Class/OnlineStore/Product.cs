@@ -6,6 +6,7 @@
     }
     public class Product : Identifier
     {
+        public string Category { get; set; }
         public string Name { get; set; }
         public int Price { get; set; }
         public int Id { get; set; }
@@ -74,6 +75,11 @@
         public void AddProduct(Product product)
         {
             tables[nameof(Product)].Add(product);
+        }
+
+        public List<Product> GetProductsByCategory(string category)
+        {
+            return tables[nameof(Product)].GetAll().Select(p => (Product)p).Where(p => p.Category == category).ToList();
         }
     }
 }
