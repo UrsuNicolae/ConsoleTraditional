@@ -1,5 +1,18 @@
 ﻿namespace ConsoleAppTraditional.Class.Employee
 {
+    public enum Department
+    {
+        IT,
+        BA,
+        TD
+    }
+
+    public class EmployeeProps
+    {
+        public double Salary { get; set; }
+        public string Name { get; set; }
+    }
+
     public interface IEmployee
     {
         void Work();
@@ -13,11 +26,15 @@
         private int id;
         private double salary;
 
+        public int Age { get; set; }
+
         public int Id
         {
             get { return id; }
             protected set { id = value; }
         }
+
+        public Department Department { get; set; }
 
         public string Name
         {
@@ -31,11 +48,13 @@
             protected set { salary = value; }
         }
 
-        protected Employee(string name, int id, double salary)
+        protected Employee(string name, int id, double salary, Department department, int age)
         {
             Name = name;
             Id = id;
             Salary = salary;
+            Department = department;
+            Age = age;
         }
 
         public virtual void DisplayInfo()
@@ -50,7 +69,7 @@
 
     public class FullTimeEmployee : Employee
     {
-        public FullTimeEmployee(string name, int id, double salary) : base(name, id, salary)
+        public FullTimeEmployee(string name, int id, double salary, Department department, int age) : base(name, id, salary, department, age)
         {
         }
 
@@ -73,7 +92,7 @@
 
     public class ParTimeEmployee : Employee
     {
-        public ParTimeEmployee(string name, int id, double salary) : base(name, id, salary)
+        public ParTimeEmployee(string name, int id, double salary, Department department, int age) : base(name, id, salary, department, age)
         {
         }
 
@@ -118,6 +137,24 @@
                 employee.DisplayInfo();
                 Console.WriteLine();
             }
+        }
+    }
+
+    public static class EmployeeManagement
+    {
+        public static List<Employee> GetAllEmployeesByCondition(List<Employee> employees, Func<Employee, bool> condition)
+        {
+            return employees.Where(condition).ToList();
+        }
+
+        public static List<Employee> SortByProperties(List<Employee> employees)
+        {
+            return employees.OrderBy(e => e.Name).ToList();
+        }
+
+        public static List<EmployeeProps> ReturnConcreateProperties(List<Employee> employees)
+        {
+            return employees.Select(s => new EmployeeProps { Name = s.Name, Salary = s.Salary }).ToList();
         }
     }
 }

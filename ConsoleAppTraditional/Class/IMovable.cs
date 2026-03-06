@@ -3,6 +3,7 @@
     public interface IMovable
     {
         void Move();
+        
     }
 
     public class MovingCar : IMovable
