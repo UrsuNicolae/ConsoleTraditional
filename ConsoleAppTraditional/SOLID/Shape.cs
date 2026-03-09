@@ -1,8 +1,11 @@
 ﻿namespace ConsoleAppTraditional.SOLID
 {
-    public abstract class Shape
+    public class Shape
     {
-        public abstract double CalculateArea();
+        public virtual double CalculateArea()
+        {
+            return 0;
+        }
     }
 
     public class Cirlce : Shape
