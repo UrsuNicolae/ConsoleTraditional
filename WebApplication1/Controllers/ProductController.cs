@@ -1,33 +1,33 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Routing;
-using WebApplication1.Dto;
-using WebApplication1.Models;
+﻿using Application.Dto;
+using Application.Repos;
+using Microsoft.AspNetCore.Mvc;
 
 namespace WebApplication1.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/v1/[controller]")]
 
     public class ProductController : ControllerBase
     {
-        private static readonly List<Product> _products = new();
+        private readonly IProductRepository productRepository;
 
+        public ProductController(IProductRepository productRepository)
+        {
+            this.productRepository = productRepository;
+        }
+        
         [HttpGet("{id}", Name = "GetById")]
+        [ResponseCache(Duration = 60, Location = ResponseCacheLocation.Client)]
         public IActionResult GetById(int id)
         {
-            var product = _products.FirstOrDefault(p => p.Id == id);
-            if(product == null)
-            {
-                return NotFound(id);
-            }
-
+            var product = productRepository.GetProduct(id);
             return Ok(product);
         }
 
         [HttpGet]
-        public IActionResult GetProducts()
+        public IActionResult GetProducts(int pageIndex, int pageSize)
         {
-            return Ok(_products);
+            return Ok(productRepository.GetProducts(pageIndex, pageSize));
         }
 
         [HttpPost]
@@ -37,44 +37,24 @@ namespace WebApplication1.Controllers
             {
                 return BadRequest(modelState: ModelState);
             }
-            var productToCreate = new Product
-            {
-                Name = dto.Name,
-                Price = dto.Price,
-                Category = dto.Category,
-                Id = _products.Count + 1
-            };
-            _products.Add(productToCreate);
 
-            return CreatedAtRoute("GetById", value: productToCreate, routeValues: new { productToCreate.Id });
+            var product = productRepository.CreateProduct(dto);
+
+            return CreatedAtRoute("GetById", value: product, routeValues: new { product.Id });
         }
 
-        [HttpPut("{id}")]
-        public IActionResult UpdateProduct(int id, CreateProductDto dto)
+        [HttpPut]
+        public IActionResult UpdateProduct(ProductDto dto)
         {
-            var product = _products.FirstOrDefault(p => p.Id == id);
-            if (product == null)
-            {
-                return NotFound(id);
-            }
-
-            product.Name = dto.Name;
-            product.Price = dto.Price;
-            product.Category = dto.Category;
-
+            productRepository.UpdateProduct(dto);
+            var product = productRepository.GetProduct(dto.Id);
             return Ok(product);
         }
 
         [HttpDelete("{id}")]
         public IActionResult DeleteProduct(int id)
         {
-            var product = _products.FirstOrDefault(p => p.Id == id);
-            if (product == null)
-            {
-                return NotFound(id);
-            }
-
-            _products.Remove(product);
+            productRepository.DeleteProduct(id);
 
             return Ok();
         }

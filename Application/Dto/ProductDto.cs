@@ -1,6 +1,6 @@
-﻿namespace WebApplication1.Models
+﻿namespace Application.Dto
 {
-    public class Product
+    public class ProductDto
     {
         public int Id { get; set; }
         public string Category { get; set; }

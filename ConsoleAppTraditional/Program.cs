@@ -72,9 +72,6 @@ namespace ConsoleAppTraditional
 
             //FilterProducts(products, );
             Console.WriteLine("Electronic products");
-
-            electronicProducts.ForEach(p => Console.WriteLine($"Product: {p.Name}, Price: {p.Price}, Category: {p.Category}"));
-
         }
     }
 }

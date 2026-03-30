@@ -1,4 +1,6 @@
 # For more info on HTTP files go to https://aka.ms/vs/httpfile
-GET https://localhost:7155/WeatherForecast?city=chisinau
+GET https://localhost:7155/api/Product/1
+
+auth: test
 
 ###
