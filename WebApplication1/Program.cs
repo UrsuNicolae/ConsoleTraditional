@@ -1,5 +1,6 @@
 using WebApplication1.Middlewares;
 using Infrastracture.Extensions;
+using System.Dynamic;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +11,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddRepos();
+builder.Services.AddDbContext();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
